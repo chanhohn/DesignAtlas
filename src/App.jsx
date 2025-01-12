@@ -9,7 +9,7 @@ function App() {
         <div className="flex w-[218px] p-[32px] flex-col items-center gap-[32px] flex-shrink-0 self-stretch rounded-[16px] bg-[#FFF] [box-shadow:0px]">
           <div className="flex w-[170px] p-[31px] justify-center items-center">
             <img
-              src="src/assets/logo.png"
+              src={import.meta.env.BASE_URL +"src/assets/logo.png"}
               className="flex w-[120px] flex-col items-center gap-[5px] flex-shrink-0"
             />
           </div>
