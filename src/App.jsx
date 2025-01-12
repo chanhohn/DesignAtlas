@@ -1,5 +1,10 @@
 import { useState } from "react";
 import pic_logo from './assets/logo.png';
+import icon_Inspiration from './assets/icon_Inspiration.svg';
+import icon_color from './assets/icon_color.svg';
+import icon_layout from './assets/icon_layout.svg';
+import icon_plus from './assets/icon_plus.svg';
+import icon_avarta from './assets/icon_avarta.png';
 
 function App() {
 
@@ -18,14 +23,14 @@ function App() {
           <div className="flex flex-col items-start gap-[16px] flex-[1_0_0] self-stretch">
             <div className="flex w-[171px] h-[48px] p-[10px] justify-center items-center gap-[8px] rounded-[8px] bg-[#F8F9FC]">
               <img
-                src="./assets/icon_Inspiration.svg"
+                src={icon_Inspiration}
                 className="w-[24px] h-[24px] flex-shrink-0"
               />
               <div className="flex-[1_0_0] text-[16px]">灵感参考</div>
             </div>
             <div className="flex w-[171px] h-[48px] p-[10px] justify-center items-center gap-[8px] rounded-[8px] bg-[#1B1E27]">
               <img
-                src="src/assets/icon_color.svg"
+                src={icon_color}
                 className="w-[24px] h-[24px] flex-shrink-0 filter brightness-0 invert"
               />
               <div className="flex-[1_0_0] text-[#FFF] text-[16px]">
@@ -34,7 +39,7 @@ function App() {
             </div>
             <div className="flex w-[171px] h-[48px] p-[10px] justify-center items-center gap-[8px] rounded-[8px]">
               <img
-                src="src/assets/icon_layout.svg"
+                src={icon_layout}
                 className="w-[24px] h-[24px] flex-shrink-0"
               />
               <div className="flex-[1_0_0] text-[16px]">排版美化</div>
@@ -49,7 +54,7 @@ function App() {
             <div className="flex h-[48px] items-center gap-[24px]">
               <div className="flex h-[56px] p-5 justify-center items-center gap-[10px] rounded-[48px] bg-[#1B1E27]">
                 <img
-                  src="src/assets/icon_Inspiration.svg"
+                  src={icon_Inspiration}
                   className="w-[24px] h-[24px] filter brightness-0 invert"
                 />
                 <div className="text-[#FFF] text-[16px] font-medium">
@@ -58,7 +63,7 @@ function App() {
               </div>
               <div className="flex h-[56px] p-5 justify-center items-center gap-[10px] rounded-[48px] bg-[#FFF]">
                 <img
-                  src="src/assets/icon_Inspiration.svg"
+                  src={icon_Inspiration}
                   className="w-[24px] h-[24px] "
                 />
                 <div className="text-[16px] font-medium">免费商用字体</div>
@@ -68,14 +73,14 @@ function App() {
             <div className="flex items-center gap-[24px]">
               <div className="flex h-[56px] p-5 justify-center items-center gap-[4px] rounded-[48px] bg-[#DAFB59]">
                 <img
-                  src="src/assets/icon_plus.svg"
+                  src={icon_plus}
                   className="w-[22px] h-[22px]"
                 />
                 <div className="text-[16px] font-medium">提交</div>
               </div>
 
               <img
-                src="src/assets/icon_avarta.png"
+                src={icon_avarta}
                 className="w-[56px] h-[56px] rounded-[58px] bg-[#FFF]"
               />
             </div>
