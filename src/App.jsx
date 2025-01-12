@@ -18,7 +18,7 @@ function App() {
           <div className="flex flex-col items-start gap-[16px] flex-[1_0_0] self-stretch">
             <div className="flex w-[171px] h-[48px] p-[10px] justify-center items-center gap-[8px] rounded-[8px] bg-[#F8F9FC]">
               <img
-                src="src/assets/icon_Inspiration.svg"
+                src="./assets/icon_Inspiration.svg"
                 className="w-[24px] h-[24px] flex-shrink-0"
               />
               <div className="flex-[1_0_0] text-[16px]">灵感参考</div>
